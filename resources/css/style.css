@@ -203,24 +203,32 @@ form button[type="submit"]:hover {
 }
 
 /* Footer Styles */
+
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-  background-color: #333;
-  color: #fff;
-  font-size: 16px;
-}
-
-.footer-text {
-  margin: 0 10px;
-}
-
-.footer-text a {
-  color: #fff;
-  text-decoration: none;
-  font-weight: bold;
-}
-
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+  }
   
+.social-media {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+.social-media a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #666666;
+    font-size: 24px;
+  }
+  
+.social-media a:hover {
+    color: #007bff;
+  }
+  
+.fab {
+    font-size: 1.5em;
+  }
+    
