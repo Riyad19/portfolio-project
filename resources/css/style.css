@@ -85,21 +85,65 @@
   
   /* Hero Section Styles */
   #hero {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-image: url('https://example.com/hero-image.jpg');
+    background: linear-gradient(to bottom, #5f5e5e, #c6c6c6), url('https://example.com/hero-image.jpg');
     background-size: cover;
     background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  #hero .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 20px;
   }
   
   #hero h1 {
-    font-size: 48px;
+    font-size: 72px;
     font-weight: bold;
     color: #fff;
-    text-align: center;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+
+  #hero h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin: 0;
+  }
+  
+  #hero p {
+    font-size: 24px;
+    color: #fff;
+    margin: 20px 0;
+    max-width: 600px;
+  }
+
+  #hero a {
+    color: #fff;
+  }
+  
+  #hero .btn {
+    padding: 12px 24px;
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    border-radius: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #hero .btn:hover {
+    background-color: #fff;
+    color: #000;
   }
   
   /* Skills Section Styles */
