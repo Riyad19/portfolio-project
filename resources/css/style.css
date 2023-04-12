@@ -279,66 +279,75 @@
 
   /* Contact Section Styles */
   #contact {
-    padding: 50px 0;
     background-color: #fff;
+    padding: 50px 0;
+    text-align: center;
   }
   
   #contact h2 {
-    font-size: 36px;
+    font-size: 40px;
     font-weight: bold;
-    color: #333;
-    text-align: center;
     margin-bottom: 30px;
+    color: #333;
   }
   
-  form label {
-    display: block;
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
+  #contact p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: #666;
   }
   
-  form input,
-form textarea {
-  display: block;
-  width: 100%;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  margin-bottom: 20px;
-}
-
-form input:focus,
-form textarea:focus {
-  outline: none;
-  border-color: #333;
-}
-
-form textarea {
-  height: 150px;
-}
-
-form button[type="submit"] {
-  display: block;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: bold;
-  margin-top: 20px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-form button[type="submit"]:hover {
-  background-color: #fff;
-  color: #333;
-  border: 1px solid #333;
-}
-
+  #contact div {
+    display: flex;
+    justify-content: center;
+  }
+  
+  #contact a {
+    display: inline-block;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #666;
+    font-size: 24px;
+  }
+  
+  #contact a:hover {
+    color: #000;
+  }
+  
+  #contact .icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #eee;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  #contact .icon:hover {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  /* Add Font Awesome class names to display icons */
+  #contact .fa {
+    font-size: 24px;
+  }
+  #contact .fa:hover {
+    color: #fff;
+  }
+  #contact .fa-facebook {
+    color: #3b5998;
+  }
+  #contact .fa-twitter {
+    color: #1da1f2;
+  }
+  #contact .fa-instagram {
+    color: #e1306c;
+  }
+  
 /* Footer Styles */
 
 footer {
